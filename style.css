@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Nazanin;
+    src: url("./font/Far_Nazanin.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nazanin';
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f1;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    letter-spacing: 2px;
+    color: #16a085;
+}
+label {
+    font-size: 1.5rem;
+    text-align: center;
+    direction: rtl;
+}
+span{
+    color: #ff6348;
+}
+#text {
+    width: 300px;
+    height: 150px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Nazanin';
+    font-size: 20px;
+    color: #393d44;
+    padding: 10px;
+}
+#text:focus {
+    outline: 2px solid #57606f;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    direction: rtl;
+    font-size: 20px;
+    color: #2f3542;
+}
+
+
